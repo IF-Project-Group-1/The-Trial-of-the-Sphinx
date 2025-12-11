@@ -52,3 +52,8 @@ A short explanation
 Player responses are evaluated using a cosine-similarity check, allowing natural language variation while still reliably detecting correct answers.
 
 Together, these components form a compact but complete text-adventure loop that mixes deterministic room navigation with dynamic, AI-driven puzzle content.
+
+## How to Set Up and Run the Demo
+While running the code in colab, No need to install any packages manually.
+### 1. Install Dependencies
+
