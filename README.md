@@ -3,7 +3,7 @@
 
 The system consists of three major components that work together to create the full gameplay experience.
 
-1. World Layout
+###1. World Layout
 
   The world is represented as a small graph of interconnected Location nodes.
   Each location specifies:
