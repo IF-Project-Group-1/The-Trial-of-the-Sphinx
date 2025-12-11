@@ -1,5 +1,5 @@
 # The-Trial-of-the-Sphinx
-##System Overview
+## System Overview
 
 The system consists of three major components that work together to create the full gameplay experience.
 
@@ -8,13 +8,13 @@ The system consists of three major components that work together to create the f
 The world is represented as a small graph of interconnected Location nodes.
 Each location specifies:
 
--Its neighboring rooms
+- Its neighboring rooms
 
--A description
+- A description
 
--Items available to pick up
+- Items available to pick up
 
--Whether the room is blocked or contains a riddle
+- Whether the room is blocked or contains a riddle
 
 This creates a simple but deterministic world structure that supports puzzle-controlled progression.
 
