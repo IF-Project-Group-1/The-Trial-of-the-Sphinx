@@ -23,17 +23,17 @@ This creates a simple but deterministic world structure that supports puzzle-con
 All gameplay logic is implemented in Python inside a single notebook.
 The Parser handles:
 
-Interpreting player commands
+- Interpreting player commands
 
-Managing movement between rooms
+- Managing movement between rooms
 
-Tracking inventory and item interactions
+- Tracking inventory and item interactions
 
-Handling blocked rooms and riddle gating
+- Handling blocked rooms and riddle gating
 
-Managing lives, win conditions, and game-over states
+- Managing lives, win conditions, and game-over states
 
-Displaying model-generated explanations
+- Displaying model-generated explanations
 
 A lightweight Gradio interface provides clean and readable UI output.
 
@@ -41,13 +41,13 @@ A lightweight Gradio interface provides clean and readable UI output.
 
 When the player enters a riddle room, the Parser prompts a fine-tuned Mistral model (via Unsloth) to produce a JSON bundle containing:
 
-A riddle
+- A riddle
 
-Three hints
+- Three hints
 
-The correct answer
+- The correct answer
 
-A short explanation
+- A short explanation
 
 Player responses are evaluated using a cosine-similarity check, allowing natural language variation while still reliably detecting correct answers.
 
