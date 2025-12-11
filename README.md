@@ -5,8 +5,8 @@ The system consists of three major components that work together to create the f
 
 1. World Layout
 
-The world is represented as a small graph of interconnected Location nodes.
-Each location specifies:
+  The world is represented as a small graph of interconnected Location nodes.
+  Each location specifies:
 
 - Its neighboring rooms
 
