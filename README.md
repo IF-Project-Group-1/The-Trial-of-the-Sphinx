@@ -57,8 +57,11 @@ pip install -r requirements.txt
 Run all the cells
 - Candle Room, Start and EscapeRoom all contain Riddles
 - While navigating rooms, the player may:
+  
   Get a riddle
+  
   answer it
+  
   "Give up" and then it generates a new riddle.
   - The shortest winning path is:
     east->east->get->west->get->south->light->south->escape.
