@@ -51,6 +51,7 @@ Together, these components form a compact but complete text-adventure loop that 
 
 ## How to Set Up and Run the Demo
 While running the code in colab, No need to install any packages manually.
+pip install -r requirements.txt
 ### Run the demo
 Run all the cells
 In the last cell while navigating the rooms, we get riddles and we may give up that riddle and get next one or we can answer it.
