@@ -18,7 +18,7 @@ The system consists of three major components that work together to create the f
 
 This creates a simple but deterministic world structure that supports puzzle-controlled progression.
 
-### 2. Parser & Game Engine
+### 2. Parser & Gameplay Logic
 
 All gameplay logic is implemented in Python inside a single notebook.
 The Parser handles:
