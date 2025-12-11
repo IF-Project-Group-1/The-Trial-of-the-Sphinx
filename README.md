@@ -18,7 +18,7 @@ The system consists of three major components that work together to create the f
 
 This creates a simple but deterministic world structure that supports puzzle-controlled progression.
 
-2. Parser & Game Engine
+### 2. Parser & Game Engine
 
 All gameplay logic is implemented in Python inside a single notebook.
 The Parser handles:
@@ -37,7 +37,7 @@ Displaying model-generated explanations
 
 A lightweight Gradio interface provides clean and readable UI output.
 
-3. AI-Generated Riddles
+### 3. AI-Generated Riddles
 
 When the player enters a riddle room, the Parser prompts a fine-tuned Mistral model (via Unsloth) to produce a JSON bundle containing:
 
