@@ -56,4 +56,4 @@ Together, these components form a compact but complete text-adventure loop that 
 ## How to Set Up and Run the Demo
 While running the code in colab, No need to install any packages manually.
 ### 1. Install Dependencies
-
+pip install -r requirements.txt
