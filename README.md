@@ -57,3 +57,7 @@ Together, these components form a compact but complete text-adventure loop that 
 While running the code in colab, No need to install any packages manually.
 ### 1. Install Dependencies
 pip install -r requirements.txt
+### 2. Run the demo
+Run all the cells
+In the last cell while navigating the rooms, we get riddles and we may give up that riddle and get next one or we can answer it.
+
