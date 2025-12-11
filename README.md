@@ -55,5 +55,12 @@ While running the code in colab, No need to install any packages manually.
 pip install -r requirements.txt
 ### Run the demo
 Run all the cells
-In the last cell while navigating the rooms, we get riddles and we may give up that riddle and get next one or we can answer it.
+- Candle Room, Start and EscapeRoom all contain Riddles
+- While navigating rooms, the player may:
+  Get a riddle
+  answer it
+  "Give up" and then it generates a new riddle.
+  - The shortest winning path is:
+    east->east->get->west->get->south->light->south->escape.
+  
 
